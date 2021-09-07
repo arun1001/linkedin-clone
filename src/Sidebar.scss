@@ -54,7 +54,6 @@
       }
     }
   }
-
   .bottom {
     text-align: left;
     padding: 10px;
@@ -62,7 +61,7 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 10px;
-    p {
+    & > p {
       font-size: 13px;
       padding-bottom: 10px;
     }

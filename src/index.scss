@@ -1,3 +1,4 @@
+@import "linkedin-variables.scss";
 * {
   margin: 0;
 }
@@ -14,7 +15,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 :root {
   --linkedin: #0a66c2;
 }

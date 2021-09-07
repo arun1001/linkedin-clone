@@ -1,5 +1,4 @@
 import { Avatar } from "@material-ui/core";
-import React from "react";
 import "./Sidebar.scss";
 const recentItems: string[] = ["reactjs", "angular", "programming", "design"];
 export const Sidebar = () => {
