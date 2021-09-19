@@ -47,6 +47,9 @@
         color: gray;
         font-size: 13px;
         font-weight: 600;
+        &:first-child {
+          text-align: left;
+        };
       }
       .statNumber {
         font-weight: bold;
