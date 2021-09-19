@@ -7,10 +7,11 @@ interface Props {
   Icon?: OverridableComponent<SvgIconTypeMap<{}, "svg">>;
   title: string;
   avatar?: string;
+  onClick?: any;
 }
-const HeaderOption: React.FC<Props> = ({ Icon, title, avatar }) => {
+const HeaderOption: React.FC<Props> = ({ Icon, title, avatar, onClick }) => {
   return (
-    <div className="headerOption">
+    <div onClick={onClick} className="headerOption">
       {Icon && <Icon className="icon" />}
       {avatar && <Avatar src={avatar} className="icon" />}
       <h3 className="title">{title}</h3>

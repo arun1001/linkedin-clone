@@ -17,4 +17,12 @@ code {
 }
 :root {
   --linkedin: #0a66c2;
+  --blue-50: #70b5f9;
+  --green-50: #7fc15e;
+  --purple-50: #c79ef7;
+  --system-red-50: #fc9295;
+  --post-color-icon-photo: var(--blue-50);
+  --post-color-icon-video: var(--green-50);
+  --post-color-icon-event: var(--purple-50);
+  --post-color-icon-article: var(--system-red-50);
 }
